@@ -1,3 +1,4 @@
+import { BlockchainService } from './services/blockchain.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CoinEd-angular';
+  public blockchain;
+  constructor(private blockchainService: BlockchainService){
+    this.blockchain=this.blockchainService.blockchain;
+  }
 }
