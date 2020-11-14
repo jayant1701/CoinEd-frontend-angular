@@ -1,3 +1,6 @@
+# Hosted on
+https://coined-ad4f9.web.app/
+
 # CoinEdAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
